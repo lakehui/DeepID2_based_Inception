@@ -3,7 +3,7 @@ this network is built based on Inception. and optimize it by using identificatio
 the project files are place in RootCaffe/model/DeepID2_based_Inception/ and RootCaffe/python/pydata.py
 
 # config
-1. you should compile caffe firstly
+1. you should compile caffe with WITH_PYTHON_LAYER := 1 in makefile.config firstly 
 
 # recommendation
 It is difficult to optimize the verification loss at the beginning stages. So I only optimize the identification loss at the beginning stages. And the verification loss are joined after the network can work for identification task.
