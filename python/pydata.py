@@ -98,7 +98,7 @@ class VeriDataLayer(caffe.Layer):
 
         # pick next input
         self.cur_line += batch_half
-        if self.cur_line >= len(self.indices):
+        if self.cur_line + batch_half >= len(self.indices):
             self.cur_line = 0
             if self.random:
                 random.seed(self.seed)
