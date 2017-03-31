@@ -434,7 +434,7 @@ layer {
   name: "loss_aux1/top-01_split1"
   type: "Accuracy"
   bottom: "loss_aux1/classifier_split1"
-  bottom: "label2"
+  bottom: "label1"
   top: "loss_aux1/top-1_split1"
   #include {
   #  phase: TEST
@@ -1023,7 +1023,7 @@ layer {
   name: "loss_aux2/top-01_split1"
   type: "Accuracy"
   bottom: "loss_aux2/classifier_split1"
-  bottom: "label2"
+  bottom: "label1"
   top: "loss_aux2/top-1_split1"
   #include {
   #  phase: TEST
