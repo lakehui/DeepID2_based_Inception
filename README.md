@@ -10,8 +10,8 @@ It is difficult to optimize the verification loss at the beginning stages. So I 
 
 
 # Reference
-[1] Y. Sun, X. Wang, X. Tang, Deeply learned face representations are sparse, selective, and robust
+[1] Y. Sun, X. Wang, X. Tang, "Deeply learned face representations are sparse, selective, and robust"
 
-[2] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, A. Rabinovich, Going deeper with convolutions
+[2] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, A. Rabinovich, "Going deeper with convolutions"
 
-[3] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, T. Darrell, Caffe: Convolutional architecture for fast feature embedding
+[3] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, T. Darrell, "Caffe: Convolutional architecture for fast feature embedding"
