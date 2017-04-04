@@ -2,7 +2,7 @@
 this network is built based on Inception. and optimize it by using identification loss and verification loss which derive from DeepID2+.
 the project files are place in RootCaffe/model/DeepID2_based_Inception/ and RootCaffe/python/pydata.py & pynormvec.py.
 
-I define the VeriDataLayer in pydata.py to generate two data branch, and try to ensure that the ratio of positive sample and negative sample is equal.
+I define the VeriDataLayer in pydata.py to generate two data branch, so that the ratio of positive sample and negative sample is approximately equal.
 
 In addtion, the input vector is not normalized in the ContrastiveLossLayer in caffe, so the NormVecLayer is defined by myself in pynormvec.py to normalized the input vector.
 
